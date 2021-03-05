@@ -6,16 +6,22 @@ font-size: 16px;
 
 
 table{
+	background-color: skyblue;
   width:100%;
-background-color:#ff8000;
-  border:red;
-}
+ border:1px solid #f6f6f6;
+  border-radius:5px;
+  border-width:10px; 
 
 }
 
 table hover {
   background-color:#000; 
 }
+
+
+
+
+
 
 .slider {
 	width: 95%;
@@ -53,3 +59,25 @@ table hover {
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
 }
+
+
+#visor_imagenes {
+	width:290px;
+  text-align: center;
+  background-color:skyblue;
+  border:1px solid #f6f6f6;
+  border-radius:5px;
+  border-width:10px;
+
+}
+
+#visor_imagenes2 {
+	width:690px;
+  text-align: center;
+  background-color:skyblue;
+  border:1px solid #f6f6f6;
+  border-radius:5px;
+  border-width:10px;
+
+}
+
